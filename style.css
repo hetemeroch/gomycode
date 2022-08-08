@@ -1,0 +1,65 @@
+
+#conteneur {
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   -webkit-columns: 3 auto;
+   -moz-columns: 3 auto;
+   columns: 3 auto;
+   margin-top: 140px;
+}
+#conteneur p {
+   margin: 0;
+   background-color: #dedede;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #footer
+  
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #111;
+        height: auto;
+        width: 100vw;
+        padding-top: 40px;
+        color: #fff;
+    }
+  #contenu 
+  {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-top: -15px;
+    
+  }
