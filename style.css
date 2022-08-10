@@ -1,17 +1,5 @@
 
-#conteneur {
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
-   -webkit-columns: 3 auto;
-   -moz-columns: 3 auto;
-   columns: 3 auto;
-   margin-top: 140px;
-}
-#conteneur p {
-   margin: 0;
-   background-color: #dedede;
-}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -62,4 +50,60 @@
     font-size: 14px;
     margin-top: -15px;
     
+  }
+
+  input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 5px;
+    border: 0px;
+  }
+
+  .cadre {
+    
+    width: 250px;
+    margin-left: 80%;
+    height: 200px;
+    margin-top: -50px;
+  }
+  #check {
+    margin: 0px;
+    width:  15px;
+    height: 15px;
+  }
+  
+  .retenir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 80px;
+    margin-top: 5px;
+ 
+  }
+  p {
+    font-size: 12px;
+    color: gray;
+  }
+  button {
+    border-radius: 5px;
+    border: none;
+  }
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: gray;
+  }
+  
+  .search {
+    display: flex;
+    margin-left: 800px;
+    margin-top: 10px;
+    gap: 5px;
   }

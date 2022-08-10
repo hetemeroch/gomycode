@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-gap :20px;
+    justify-content: center;
+    grid-template-areas: "A B B" "C D E" "F G E";
+
+   
+
+}
+
+.item {
+    background-color: gray;
+    height: 150px;
+}
+
+div:nth-child(1) {
+ grid-area: B;
+ 
+}
+
+div:nth-child(2) {
+    grid-area: E;
+    height: 325px;
+    background-image: url(01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
